@@ -1,0 +1,15 @@
+.headingRed {
+  color: red;
+}
+
+/* Borders */
+.headingBorder {
+  border: 3px solid blue;
+  border-radius: 50px;
+}
+
+/* Margin and padding */
+.headingSpace {
+  margin: 40px;
+  padding: 40px;
+}
