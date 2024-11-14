@@ -2,6 +2,10 @@
   color: red;
 }
 
+.headingRed:hover {
+  color: green;
+}
+
 /* Borders */
 .headingBorder {
   border: 3px solid blue;
@@ -12,4 +16,60 @@
 .headingSpace {
   margin: 40px;
   padding: 40px;
+}
+
+/* Body */
+/* body {
+  background-attachment: fixed;
+  background: yellow url(bgimg.jpg) no-repeat;
+} */
+
+.container {
+  width: 250px;
+  height: 250px;
+  background-image: url(bgimg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: blue;
+}
+
+.btn {
+  background-color: red;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Hover */
+.btn:hover {
+  background-color: green;
+}
+
+/* Table */
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: green;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgreen;
+}
+
+tr:nth-child(even) {
+  background-color: lightblue;
 }
